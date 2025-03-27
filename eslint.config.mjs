@@ -48,12 +48,7 @@ export default [
     },
 
     rules: {
-     "prettier/prettier": [
-    "error",
-    {
-      "endOfLine": "auto"
-    }
-  ],
+      'prettier/prettier': 'error',
       'react/react-in-jsx-scope': 'off',
 
       'jsx-a11y/anchor-is-valid': [
@@ -73,4 +68,3 @@ export default [
     },
   },
 ]
-
